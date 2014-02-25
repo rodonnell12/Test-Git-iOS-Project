@@ -21,6 +21,7 @@
 		105DB57418BC4676001A20FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 105DB55618BC4676001A20FC /* UIKit.framework */; };
 		105DB57C18BC4676001A20FC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 105DB57A18BC4676001A20FC /* InfoPlist.strings */; };
 		105DB57E18BC4676001A20FC /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 105DB57D18BC4676001A20FC /* Git_TestTests.m */; };
+		105DB58918BC496F001A20FC /* ROTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 105DB58818BC496F001A20FC /* ROTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		105DB57918BC4676001A20FC /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		105DB57B18BC4676001A20FC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		105DB57D18BC4676001A20FC /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		105DB58718BC496F001A20FC /* ROTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ROTest.h; sourceTree = "<group>"; };
+		105DB58818BC496F001A20FC /* ROTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ROTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				105DB56818BC4676001A20FC /* ROViewController.m */,
 				105DB56A18BC4676001A20FC /* Images.xcassets */,
 				105DB55918BC4676001A20FC /* Supporting Files */,
+				105DB58718BC496F001A20FC /* ROTest.h */,
+				105DB58818BC496F001A20FC /* ROTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				105DB58918BC496F001A20FC /* ROTest.m in Sources */,
 				105DB55F18BC4676001A20FC /* main.m in Sources */,
 				105DB56318BC4676001A20FC /* ROAppDelegate.m in Sources */,
 				105DB56918BC4676001A20FC /* ROViewController.m in Sources */,
